@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.navyabhaskar.test2_062916.ackDetails"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank you, Stored your details Successfully. Please give your Username and Password"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:fontFamily="Arial"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName :"
+        android:id="@+id/textView_usernameack"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Password :"
+    android:id="@+id/textView_Passwordack"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="240dp"
+    android:textColor="#ffffff"
+    android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Pwd :"
+        android:id="@+id/textView_confPasswordack"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="280dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/editText_usernameack"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="200dp"
+        android:textSize="20dp"
+        android:background="#605b5b"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/editText_passwordack"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="240dp"
+        android:textSize="20dp"
+        android:background="#605b5b"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:maxLength="4"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/editText_cfmpasswordack"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="280dp"
+        android:textSize="20dp"
+        android:background="#605b5b"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:maxLength="4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/ok_ack"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="380dp" />
+</RelativeLayout>

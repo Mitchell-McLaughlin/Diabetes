@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.navyabhaskar.test2_062916.Glucose_Measure"
+    android:id="@+id/Rellayout_GlucoseLevel"
+    android:theme="@style/AppTheme"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView_blooddrop_bgl"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/blooddrop_bgl" />
+
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:text="Blood Glucose :"
+        android:id="@+id/textView_bglop"
+        android:textSize="18dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:inputType="numberDecimal"
+        android:id="@+id/editText_bglip"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="200dp"
+        android:textCursorDrawable="@null"
+        android:cursorVisible="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:text="mg/dL"
+        android:id="@+id/textView_dim"
+        android:textSize="12dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="280dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff" />
+
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:id="@+id/seekBar_bglprogress"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:max="700"
+        android:progressDrawable="@drawable/custom_progress"
+        android:thumb="@drawable/thumb" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Your Glucose level is Normal "
+        android:id="@+id/textView_judge"
+        android:textSize="14dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="55dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Date :"
+        android:id="@+id/textView_dateop"
+        android:textSize="18dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="1dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff" />
+
+
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:id="@+id/editText_date"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="135dp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Time :"
+        android:id="@+id/textView_timeop"
+        android:textSize="18dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="1dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff" />
+
+
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:id="@+id/editText_time"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="135dp"
+        />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Note :"
+        android:id="@+id/textView_noteop"
+        android:textSize="18dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="1dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff" />
+
+
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="70dp"
+        android:inputType="text"
+        android:id="@+id/editText_note"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="135dp"
+        android:textSize="15dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:text="Save"
+        android:id="@+id/button_editRegimen"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:textSize="14dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:text="Home"
+        android:id="@+id/button_homebgl"
+        android:layout_alignTop="@+id/button_editRegimen"
+        android:layout_marginLeft="140dp"
+        android:textSize="12dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:text="Summary"
+        android:id="@+id/button_summarybgl"
+        android:layout_alignTop="@+id/button_editRegimen"
+        android:layout_marginLeft="270dp"
+        android:textSize="12dp"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

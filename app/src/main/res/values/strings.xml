@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">test2_062916</string>
+
+
+    <string-array name="type">
+        <item>Type</item>
+        <item>Greens</item>
+        <item>Tofu</item>
+        <item>Mushroom</item>
+        <item>egg</item>
+        <item>Chicken</item>
+        <item>Lamb</item>
+        <item>beef</item>
+        <item>pork</item>
+        <item>bacon</item>
+        <item>others</item>
+    </string-array>
+
+    <string-array name="quantity">
+        <item>Quantity</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>>=10</item>
+    </string-array>
+
+    <string-array name="alchohol">
+        <item>Alchohol</item>
+        <item>Beer</item>
+        <item>Wine</item>
+        <item>Vodka</item>
+        <item>Gin</item>
+        <item>Rum</item>
+        <item>Whisky</item>
+        <item>Cocktails</item>
+        <item>others</item>
+    </string-array>
+
+    <string-array name="nonalchohol">
+        <item>NonAlchohol</item>
+        <item>Soda Pops</item>
+        <item>Fruit Juices</item>
+        <item>Water</item>
+        <item>Flavoured Water</item>
+        <item>others</item>
+    </string-array>
+
+    <string-array name="LunchDinner">
+        <item>Lunch/Dinner</item>
+        <item>Sandwich</item>
+        <item>Burger</item>
+        <item>Noodles</item>
+        <item>Rice</item>
+        <item>Cheese Grill</item>
+        <item>Pizza</item>
+        <item>Hotdog</item>
+        <item>Salad</item>
+        <item>Soup</item>
+        <item>others</item>
+    </string-array>
+
+    <string-array name="BreakFast">
+        <item>Breakfast</item>
+        <item>Omlette</item>
+        <item>Boiled Eggs</item>
+        <item>Roasted corn</item>
+        <item>panCakes</item>
+        <item>boiled beans</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Snacks">
+        <item>Snacks</item>
+        <item>Fries</item>
+        <item>Wedges</item>
+        <item>Rings</item>
+        <item>Sweets</item>
+        <item>Donuts</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="SnackCategory">
+        <item>Type</item>
+        <item>Potato</item>
+        <item>Chicken</item>
+        <item>Bacon</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="Indoor">
+        <item>Indoor</item>
+        <item>Calf Exercises</item>
+        <item>Walking Inside</item>
+        <item>waist Bends</item>
+        <item>Knee bends</item>
+        <item>Stretcing</item>
+        <item>Jumping jacks</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Outoor">
+        <item>Outdoor</item>
+        <item>Running</item>
+        <item>Jogging</item>
+        <item>cycling</item>
+        <item>Tennis</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Gym_Exercises">
+        <item>Gym Exercises</item>
+        <item>Abdominal Exercise</item>
+        <item>Biceps Exercise</item>
+        <item>Chest Exercise</item>
+        <item>Forearm Exercise</item>
+        <item>Tricep Exercise</item>
+        <item>Shoulder Exercise</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Sports">
+        <item>Sports</item>
+        <item>Cricket</item>
+        <item>Baseball</item>
+        <item>Hockey</item>
+        <item>Football</item>
+        <item>Swimming</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Medication">
+        <item>Medication</item>
+        <item>Avandaryl</item>
+        <item>Prandimet</item>
+        <item>Avandamet</item>
+        <item>Janumet</item>
+        <item>Glucovance</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="queryOn">
+        <item>Queries</item>
+        <item>Glucose</item>
+        <item>Calories Intake</item>
+        <item>Calories Burned</item>
+    </string-array>
+    <string-array name="timing">
+        <item>0:00</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+        <item>6:00</item>
+        <item>7:00</item>
+        <item>8:00</item>
+        <item>9:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+
+    </string-array>
+
+</resources>
